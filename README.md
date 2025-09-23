@@ -5,7 +5,8 @@ Dialog tool for AI interaction (Cursor IDE or other platforms).
 ## About the project
 
 MCP Dialog allows you to ask follow-up questions to AI after executing a request.
-MCP has timeout protection that prevents dialog termination, for this it restarts MCP after 2 minutes, you can set any time.
+
+MCP has timeout protection that prevents dialog termination, for this it restarts MCP after 5 minutes, you can set any time.
 
 ## Key features
 
