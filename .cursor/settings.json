@@ -1,0 +1,31 @@
+{
+  "geminicodeassist.updateChannel": "Insiders",
+  "editor.tabSize": 2,  
+  "editor.fontFamily": "Menlo, Consolas, 'Courier New', monospace",
+  "editor.mouseWheelZoom": true,
+  "workbench.colorCustomizations": {
+    "editor.background": "#1f1f1f",         // Основной фон редактора
+    "editorGutter.background": "#1f1f1f",   // Фон области с номерами строк
+    "sideBar.background": "#1f1f1f",        // Фон боковой панели
+    "activityBar.background": "#1f1f1f",    // Фон панели активности слева
+    "terminal.background": "#1f1f1f"        // Фон терминала
+  },  
+  "editor.experimental.asyncTokenization": false, // Отключает экспериментальную токенизацию
+  "window.zoomLevel": 0, // Или подберите значение (например, -1, 1)
+  "files.eol": "\n",  // Устанавливает конец строки в виде LF
+  "editor.formatOnPaste": true,  // Форматирует код при вставке  
+  "window.commandCenter": true,
+  "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "phpserver.browser": "",
+  "phpserver.phpConfigPath": "",
+  "phpserver.phpPath": "c:\\usr\\local\\php\\php.exe",
+  "phpserver.port": 3000,
+  "php.validate.executablePath": "c:\\usr\\local\\php\\php.exe",
+  "phpserver.ip": "127.0.0.1",
+  "javascript.validate.enable": false, // Отключает проверку JavaScript
+  "html.validate.scripts": false, // Отключает проверку скриптов в HTML
+  "css.validate": false, // Отключает проверку CSS
+  "eslint.enable": true, // Включили ESLint для проекта
+}
