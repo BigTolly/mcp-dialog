@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""
-MCP Server Launcher
-Starts the mcp-dialog MCP server
-"""
 
 import sys
 import os
