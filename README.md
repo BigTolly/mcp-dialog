@@ -36,7 +36,7 @@ If you end a dialogue while the AI is writing or thinking, it will make communic
 2. You see three dots.
 3. Click stop.
 
-(./when-to-stop.png)
+![When to stop](./when-to-stop.png)
 
 ## Technical information
 
