@@ -2,10 +2,12 @@
 
 
 ## Зависимости
+```code
 pip install fastmcp
-
+```
 
 ## Добавление mcp (пример)
+```json
 {
   "mcpServers": {
       "my-tools": {
@@ -14,12 +16,13 @@ pip install fastmcp
     }
   }
 }
-
+```
 
 ## Настройка языка
 Измени файл config.py:
+```python
 LANG = 'ru'
-
+```
 
 ## Файл с правилами .cursor/rules/rules.mdc:
 

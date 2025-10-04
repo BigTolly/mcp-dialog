@@ -2,10 +2,13 @@
 
 
 ## Dependencies
+```code
 pip install fastmcp
+```
 
 
 ## Adding mcp (example) 
+```json
 {
   "mcpServers": {
       "my-tools": {
@@ -14,12 +17,13 @@ pip install fastmcp
     }
   }
 }
-
+```
 
 ## Language Setting
 Change the config.py file:
+```python
 LANG = 'en'
-
+```
 
 
 ## Rules file .cursor/rules/rules.mdc:
