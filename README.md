@@ -4,6 +4,8 @@
 
 Dialog tool for AI interaction (Cursor IDE or other platforms).
 
+![Popup](./popup.png)
+
 ## About the project
 
 MCP Dialog allows you to ask follow-up questions to AI after executing a request.

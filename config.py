@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # Language setting: 'ru' for Russian, 'en' for English
-LANG = 'ru'
+LANG = 'en'
 
 # Timing settings
 TIMEOUT_SECONDS = 600  # Maximum wait time for user response (defaule: 600 seconds)
