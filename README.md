@@ -31,7 +31,12 @@ MCP has timeout protection that prevents dialog termination, for this it restart
 
 ## Cursor Trial Bug
 
-If you terminate dialog when AI is writing (not thinking), this will make AI communication completely free.
+If you end a dialogue while the AI is writing or thinking, it will make communication with the AI completely free.
+1. An empty message was sent in the mcp window.
+2. You see three dots.
+3. Click stop.
+
+(./when-to-stop.png)
 
 ## Technical information
 
