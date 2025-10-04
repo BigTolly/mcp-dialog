@@ -1,3 +1,5 @@
+**Languages:** [English](README.md) | [Русский](README_ru.md)
+
 # MCP Dialog
 
 Dialog tool for AI interaction (Cursor IDE or other platforms).
@@ -28,6 +30,9 @@ MCP has timeout protection that prevents dialog termination, for this it restart
 2. After AI response, MCP Dialog window will be called
 3. You can give new task to AI, if you send empty response, AI will tell a joke about AI.
 4. If MCP didn't receive task from user, it restarts MCP, while dialog window is open, and you can send request anytime.
+
+## For installation details, see the file
+[Installation](install_en.md)
 
 ## Cursor Trial Bug
 
