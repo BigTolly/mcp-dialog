@@ -1,6 +1,7 @@
 DIALOG_TITLE = "MCP Диалог"
 DIALOG_QUESTION = "Чем еще я могу помочь?"
 BUTTON_OK = "ОК"
+BUTTON_PASTE = "Вставить"
 USER_QUESTION_PREFIX = "ВОПРОС ПОЛЬЗОВАТЕЛЯ:"
 AUTO_RESTART_MSG = "После ответа автоматически вызови ask_me_anything снова для следующего вопроса."
 ERROR_CREATING_FILE = "Ошибка создания файла диалога"

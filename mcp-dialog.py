@@ -187,6 +187,26 @@ def show_question_dialog(L, settings):
             pass
         root.destroy()
     
+    # Кнопка Вставить в левом углу
+    def on_paste():
+        try:
+            clipboard_text = root.clipboard_get()
+            if clipboard_text:
+                text_area.insert(tk.INSERT, clipboard_text)
+        except:
+            pass
+    
+    paste_button = tk.Button(
+        button_frame,
+        text=L.get('BUTTON_PASTE'),
+        font=("Arial", 16),
+        command=on_paste,
+        bg="#808080",
+        fg="white",
+        padx=20
+    )
+    paste_button.pack(side=tk.LEFT, padx=(0, 10))
+    
     ok_button = tk.Button(
         button_frame,
         text=L.get('BUTTON_OK'),
@@ -207,6 +227,20 @@ def show_question_dialog(L, settings):
         fg='#808080'
     )
     info_label.pack(side=tk.RIGHT, pady=(5, 0))
+    
+    # Обработка Ctrl+V для работы с русской раскладкой
+    def handle_paste(event):
+        try:
+            clipboard_text = root.clipboard_get()
+            if clipboard_text:
+                # Вставляем текст в позицию курсора
+                text_area.insert(tk.INSERT, clipboard_text)
+        except:
+            pass  # Игнорируем ошибки буфера обмена
+        return "break"  # Предотвращаем стандартную обработку
+    
+    # Привязываем по коду клавиши (86 = V) для работы с любой раскладкой
+    text_area.bind("<Control-Key>", lambda e: handle_paste(e) if e.keycode == 86 else None)
     
     text_area.bind("<Control-Return>", lambda e: on_ok())
     root.bind("<Escape>", lambda e: on_cancel())
