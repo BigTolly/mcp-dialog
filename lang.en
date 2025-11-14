@@ -7,4 +7,4 @@ AUTO_RESTART_MSG = "After answering, automatically call ask_me_anything again fo
 ERROR_CREATING_FILE = "Error creating dialog file"
 TIMEOUT_RETRY_MSG = "Call ask_me_anything again."
 INFO_EMPTY_EXIT = "Empty answer - exit"
-DEFAULT_JOKE_REQUEST = "Tell me a funny joke about AI"
+EXIT_MESSAGE = "Dialog finished."

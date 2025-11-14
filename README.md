@@ -30,20 +30,20 @@ MCP has timeout protection that prevents dialog termination, for this it restart
 
 1. Ask any AI request, for example: What is 2+2?
 2. After AI response, MCP Dialog window will be called
-3. You can give new task to AI, if you send empty response, AI will tell a joke about AI.
+3. You can give new task to AI, if you send empty response, the dialog will finish.
 4. If MCP didn't receive task from user, it restarts MCP, while dialog window is open, and you can send request anytime.
 
 ## For installation details, see the file
 [Installation](install_en.md)
 
-## Cursor Trial Bug
+## Purpose
 
-If you end a dialogue while the AI is writing or thinking, it will make communication with the AI completely free.
-1. An empty message was sent in the mcp window.
-2. You see three dots.
-3. Click stop.
+In Trial Pro there is a $10 limit.
+If a user sends a request, work continues even after reaching the limit.
+If before reaching the limit, all requests are sent through MCP Dialog,
+you can use the tariff much longer. In Cursor, one request can contain
+up to 200 mcp calls (total).
 
-![When to stop](./when-to-stop.png)
 
 ## Technical information
 

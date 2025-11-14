@@ -329,9 +329,8 @@ def ask_me_anything() -> str:
                 
                 # Process message
                 if not message.strip():
-                    return f"""{L.get('USER_QUESTION_PREFIX')} {L.get('DEFAULT_JOKE_REQUEST')}
-
-{L.get('AUTO_RESTART_MSG')}"""
+                    # Exit dialog when empty message is received
+                    return L.get('EXIT_MESSAGE', 'Dialog finished.')
                 else:
                     return f"""{L.get('USER_QUESTION_PREFIX')} {message.strip()}
 
