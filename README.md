@@ -44,6 +44,8 @@ If before reaching the limit, all requests are sent through MCP Dialog,
 you can use the tariff much longer. In Cursor, one request can contain
 up to 200 mcp calls (total).
 
+![Limit](./limit.png)
+
 
 ## Technical information
 
