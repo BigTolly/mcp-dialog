@@ -103,7 +103,3 @@ IF at least one point is YES, but MCP Dialog is NOT called → YOU VIOLATED THE 
 **Remember: MCP Dialog is not an option, it's a MANDATORY part of your workflow!**
 ```
 
-## Correct stop (without removing tokens)
-1. Empty answer in the dialog box
-2. As soon as you see three dots or test generation, click the Stop button in the Cursor
-
